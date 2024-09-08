@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+.sobre_mi-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    @media (max-width: 830px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+.sobre_mi-container img{
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+.sobre_mi-container .text-container{
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.name{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h1{
+    font-weight: 800;
+    color: #00008B;
+}
+
+
